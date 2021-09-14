@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>RemoveElement</title>
+
+    </head>
+    <body>
+        <h1>varam</h1>
+        <h1 id="h1">varam</h1>
+        <h1>varam</h1>
+        <button id="btn">remove</button>
+        <script>
+            document.getElementById("btn").addEventListener("click",remove)
+            function remove()
+            
+            {
+                document.getElementsByTagName("h1")[0].remove()
+                // document.getElementsById("h1").remove()
+            }
+        </script>
+
+    </body>
+</html>
