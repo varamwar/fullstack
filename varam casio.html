@@ -1,0 +1,185 @@
+        <html>
+          <head>
+        <title>calclator</title>
+        <style>
+            button{
+                width: 50px; height: 50px; font-weight: bold;font-size: larger; background-color:black ; color: white;
+            }
+            input{
+                width: 210px; height: 70px;font-size:xx-large;
+            }
+            legend{
+                font-weight: bold;font-size: xx-large;
+            }
+            fieldset{
+                width: 215px; background-color:lightslategray ;
+            }
+            marquee{
+              font-size: larger;color: white;
+            }
+            
+                     
+           
+        </style>
+
+    </head>
+
+    <body>
+        <center>
+        
+    
+     <div>
+      <h1>Calculator</h1>
+         <fieldset>
+             
+          
+          <!-- <legend>Calculator</legend>    -->
+         <input type="text" id="result"/><marquee behavior="" direction="">casio</marquee> <br>
+         <button id="b7">7</button>
+         <button id="b8">8</button>
+         <button id="b9">9</button>
+         <button id="b+">+</button><br><br>
+         <button id="b4">4</button>
+         <button id="b5">5</button>
+         <button id="b6">6</button>
+         <button id="b-">-</button><br><br>
+         <button id="b1">1</button>
+         <button id="b2">2</button>
+         <button id="b3">3</button>
+         <button id="b*">*</button><br><br>
+         <button id="b/">/</button>
+         <button id="b0">0</button>
+         <button id="b.">.</button>
+         <button id="b=">=</button>
+        </fieldset>
+     </div>
+     <script>
+         
+
+         document.getElementById("b1").addEventListener("click",bn1)
+         function bn1()
+         {
+           var a=document.getElementById("b1").value="1"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b2").addEventListener("click",bn2)
+         function bn2()
+         {
+           var a=document.getElementById("b2").value="2"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b3").addEventListener("click",bn3)
+         function bn3()
+         {
+           var a=document.getElementById("b3").value="3"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b4").addEventListener("click",bn4)
+         function bn4()
+         {
+           var a=document.getElementById("b4").value="4"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b5").addEventListener("click",bn5)
+         function bn5()
+         {
+           var a=document.getElementById("b5").value="5"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b6").addEventListener("click",bn6)
+         function bn6()
+         {
+           var a=document.getElementById("b6").value="6"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b7").addEventListener("click",bn7)
+         function bn7()
+         {
+           var a=document.getElementById("b7").value="7"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b8").addEventListener("click",bn8)
+         function bn8()
+         {
+           var a=document.getElementById("b8").value="8"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b9").addEventListener("click",bn9)
+         function bn9()
+         {
+           var a=document.getElementById("b9").value="9"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b+").addEventListener("click",bn10)
+         function bn10()
+         {
+           var a=document.getElementById("b+").value="+"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b-").addEventListener("click",bn11)
+         function bn11()
+         {
+           var a=document.getElementById("b-").value="-"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b*").addEventListener("click",bn12)
+         function bn12()
+         {
+           var a=document.getElementById("b*").value="*"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b/").addEventListener("click",bn13)
+         function bn13()
+         {
+           var a=document.getElementById("b/").value="/"
+           document.getElementById("result").value+=a
+
+           
+         }
+         document.getElementById("b=").addEventListener("click",bn14)
+
+          
+         function bn14()
+         {
+           var a=document.getElementById("result").value
+           var b=eval(a)
+           document.getElementById("result").value=b
+
+           
+         }
+         document.getElementById("b0").addEventListener("click",bn13)
+         function bn13()
+         {
+           var a=document.getElementById("b0").value="0"
+           document.getElementById("result").value+=a
+         }
+         
+         
+     </script>
+    </center>
+    </body>
+</html>
